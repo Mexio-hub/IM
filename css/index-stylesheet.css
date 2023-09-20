@@ -1,7 +1,8 @@
 /* ID =.id*/
 /* Class =#class*/
 
-.subjectContainer {
+.gridContainer {
     display: grid;
     grid-template-columns: auto auto auto;
-}
+    border: 2px solid blue;
+}   
