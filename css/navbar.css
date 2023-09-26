@@ -19,7 +19,7 @@
 }
 
 .topnav a#active {
-  border-bottom: 4px solid rgb(150, 255, 4);
+  border-top: 4px solid rgb(150, 255, 4);
   color: black;
 }
 
@@ -41,7 +41,7 @@
   color: white;
   background-color: inherit;
   font-family: inherit;
-  margin: 60px 0px;
+  margin: 53px 0px;
 }
 
 
