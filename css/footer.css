@@ -1,0 +1,39 @@
+footer {
+    margin-top:auto;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color:#0d87eb;
+    width:100%
+}
+
+main {
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    min-width:100%;
+}
+
+
+body {
+    min-width:100%;
+    margin:0px;
+}
+
+
+.social-button {
+    height:50px;
+    margin-bottom:10px;
+    width:50px;
+    background:transparent;
+    border:transparent !important;
+    font-size:x-large;
+}
+
+#socials {
+    margin:50px;
+}
+
+.social-button:hover {
+    cursor:pointer;
+}
+
