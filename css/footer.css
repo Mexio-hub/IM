@@ -2,7 +2,7 @@ footer {
     margin-top:auto;
     display:grid;
     grid-template-columns: auto auto auto;
-    background-color:#0d87eb;
+    background-color:#57adf4;
     width:100%
 }
 
@@ -27,6 +27,7 @@ body {
     background:transparent;
     border:transparent !important;
     font-size:x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #socials {
@@ -35,5 +36,6 @@ body {
 
 .social-button:hover {
     cursor:pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
