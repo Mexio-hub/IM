@@ -3,6 +3,7 @@
     display:grid;
     grid-template-columns: auto auto auto;
     align-self:center;
+    grid-gap: 10px;
 }
 
 .collage-container {
@@ -15,6 +16,12 @@
     margin:50px;
     padding:20px;
     text-align:left;
+    width:400px;
+    height:fit-content;
+}
+
+.collage-container img{
+    width:400px;
 }
 
 .about-container {
@@ -90,4 +97,8 @@ h1 {
     background-image: linear-gradient(blue, darkblue), radial-gradient(circle at top left, blue,darkblue);
     background-origin: border-box;
     background-clip: padding-box, border-box;
+}
+
+body {
+    width:100%;
 }
