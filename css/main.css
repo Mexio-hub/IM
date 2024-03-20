@@ -132,6 +132,10 @@ p {
     background-clip: padding-box, border-box;
 }
 
+.edu-container {
+    margin: auto;
+}
+
 
 #github {
     height: 100px;
