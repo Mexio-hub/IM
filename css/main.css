@@ -5,6 +5,7 @@
     grid-column-gap: 10px;
     margin: 0px 50px 0px 50px;
     align-self: center;
+    place-self:auto;
 }
 
 .collage-container {
@@ -19,18 +20,7 @@
     text-align: left;
 }
 
-main {
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    width:100%;
-}
 
-
-body {
-    width:100vw;
-    margin:0px;
-}
 
 .about-container {
     margin: 50px 250px 50px 250px;
@@ -67,19 +57,6 @@ body {
     background-color: #6bb7f5;
 }
 
-.topgrid-container {
-    display: grid;  
-    grid-template-columns: 7% 66% 27%;
-    background-color: #57adf4;
-    align-items: center;
-    width:100%;
-}
-
-nav img {
-    width: 100px;
-    margin-left: 30px;
-
-}
 
 h1 {
     font-size: xx-large;
@@ -101,7 +78,8 @@ h1 {
     border-style: solid;
     border-image: linear-gradient(blue, darkblue) 30;
     box-shadow: 10px 10px 10px black;
-    width: 500px;
+    width:50%;
+    max-width:500px;
 }
 
 .context-container h2,
@@ -115,10 +93,19 @@ p {
     font-size: 30px;
 }
 
+.topgrid-container {
+    display: grid;  
+    grid-template-columns: 7% 66% 27%;
+    background-color: #57adf4;
+    align-items: center;
+    width:100%;
+}
+
 .index-grid {
     display: grid;
     grid-template-columns: auto auto;
-    margin: 60px 170px 0px 170px;
+    margin: auto;
+    place-self:auto;
 }
 
 .index-grid img {
@@ -140,7 +127,6 @@ p {
 #github {
     height: 100px;
     text-align: center;
-
 }
 
 #github button {
@@ -156,4 +142,49 @@ p {
 
 #img-github {
     width: 200px;
+}
+
+main {
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    width:100vw;
+}
+
+
+body {
+    width:100vw;
+    margin:0px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .index-grid {
+        grid-template-columns: repeat(1, 1fr); /* Change to a single column for smaller screens */
+        margin: 0px; /* Remove left and right margin */
+        max-width:100%;
+    }
+
+    #header {
+        display:none;
+    }
+
+    .topnav {
+        position:fixed !important;
+        display:block;
+        float:none; 
+    }
+
+    #logo {
+        display:none;
+    }
+    
+    .topgrid-container {
+        grid-template-columns: 1, 1fr;  
+    }
+    
+    .context-container {
+        margin:auto;
+    }
 }

@@ -6,8 +6,8 @@
     float: right;
     width: fit-content;
     padding-top: 15px;
-    margin: 50px;
     border-radius: 20px;
+    
 }
 
 
@@ -54,10 +54,10 @@
     display: none;
     right: 0;
     background-color: #0174d3;
-    width: fit-content;
     padding: 20px;
     border-radius: 20px;
     margin-top: 20px;
+
 }
 
 
@@ -67,4 +67,14 @@
 
 #active {
     background-color: #023966;
+}
+
+#logo {
+    width: fit-content;
+    margin-left: 30px;   
+    display:inline-block;
+}
+
+#logo img {
+    width:100px;
 }
