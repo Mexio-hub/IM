@@ -36,13 +36,14 @@
     margin: 50px;
     padding: 20px;
     text-align: center;
-    width: 60vw;
+    width: 20vw;
     height: 40vh;
 }
 
 .interest-container img {
-    max-width: 350px;
-    max-height: 400px;
+    max-width: 19vw;
+    max-height: 30vh;
+    
 
 
 }
@@ -186,7 +187,8 @@ body {
     }   
 
     .about-container {
-        margin:50px;
+        margin:20px;
+        margin-top:50px;
     }
 
     #header {
