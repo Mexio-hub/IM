@@ -22,7 +22,7 @@
 
 .subnav {
     float: right;
-    overflow: hidden;
+
     padding-bottom: 20px;
 }
 
@@ -60,13 +60,15 @@
 
 }
 
-
-.subnav:hover .subnav-content {
-    display: block;
+.subnav:hover .subnav-content{
+    display:block;
 }
+
+
 
 #active {
     background-color: #023966;
+    padding:inherit;
 }
 
 #logo {
