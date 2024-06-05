@@ -168,13 +168,26 @@ body {
     margin:0px;
 }   
 
+@media only screen and (max-width: 1280px) {
+    .topgrid-container {
+        grid-template-columns: 1, 1fr;
+    }
+    .topnav {
+        position:fixed !important;
+        display:block;
+        float:right; 
+        justify-self:right;    
+    }
+
+}
+
 
 
 @media only screen and (max-width: 768px) {
     .index-grid {
         grid-template-columns: repeat(1, 1fr); /* Change to a single column for smaller screens */
         margin:0px; /* Remove left and right margin */
-        max-width:100%;
+        width:100%;
         align-items:center;
         margin:auto;
         margin-top:75px;
@@ -200,7 +213,8 @@ body {
         display:block;
         float:none; 
         justify-self:center;
-        margin-top: 75px;   
+        margin-top: 100px; 
+  
     }
 
     #logo {
@@ -208,7 +222,8 @@ body {
     }
     
     .topgrid-container {
-        grid-template-columns: 1, 1fr;
+        grid-template-columns: 2, 1fr;
+        
     }
 
     .edu-container{
@@ -222,6 +237,16 @@ body {
         width:85vw;
     }
 
-    
+    .collage {
+        grid-template-columns: repeat(1, 1fr); /* Change to a single column for smaller screens */
+        margin:0px; /* Remove left and right margin */
+        width:100%;
+        align-items:center;
+        margin:auto;
+        margin-top:75px;
+    }
 
 }
+
+
+
